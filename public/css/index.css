@@ -124,7 +124,7 @@ button[class|='secondary'] {
   color: red;
 }
 
-.lesson-three-task-ten p:first-of-type {
+.lesson-three-task-ten p:first-of-type::first-line {
   background: yellow;
 }
 
