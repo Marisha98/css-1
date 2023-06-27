@@ -19,19 +19,19 @@ h1 {
 }
 
 section .box div {
-  color: green;
+  background: green;
 }
 
 section .box p {
-  color: red;
+  background: red;
 }
 
 .brown {
   color: white;
-  background: brown;
+  background: green;
 }
 
-.lesson-1-task-8 ul > li {
+ul > li {
   background: red;
 }
 
@@ -94,7 +94,7 @@ section .box p {
 }
 
 .lesson-three-task-three [value='3'] {
-  background: red;
+  background: blue;
 }
 
 .lesson-three-task-four button[class~='primary'] {
@@ -124,7 +124,7 @@ button[class|='secondary'] {
   color: red;
 }
 
-.lesson-three-task-ten p::first-line {
+.lesson-three-task-ten p:first-of-type {
   background: yellow;
 }
 
